@@ -52,8 +52,8 @@ def fernet_decrypt(key: str, encrypted_data: bytes) -> bytes:
     return f.decrypt(encrypted_data)
 
 
-def load_pem_private_key(private_key: str) -> rsa.RSAPrivateKey:
-    return serialization.load_pem_private_key(private_key.encode())
+def load_pem_private_key(private_key: str, phrase: str = None) -> rsa.RSAPrivateKey:
+    return serialization.load_pem_private_key(private_key.encode(), password=phrase)
 
 
 def load_pem_public_key(public_key: str) -> rsa.RSAPublicKey:
