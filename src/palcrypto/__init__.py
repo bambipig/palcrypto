@@ -1,3 +1,5 @@
+__version__ = '0.0.1'
+
 from cryptography.hazmat.primitives import hashes
 from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import serialization

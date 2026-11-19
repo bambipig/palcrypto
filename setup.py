@@ -15,7 +15,7 @@ if __name__ == "__main__":
             name='palcrypto',
             packages=['palcrypto'],
             install_requires=[
-                'cryptography==40.0.2',
+                'cryptography>=44.0.2',
             ],
         )
     except:  # noqa
