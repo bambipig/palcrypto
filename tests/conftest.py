@@ -1,5 +1,5 @@
 """
-    Dummy conftest.py for palcrypto.
+    Dummy conftest.py for palpearlcrypto.
 
     If you don't know what this is for, just leave it empty.
     Read more about conftest.py under:

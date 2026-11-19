@@ -1,5 +1,5 @@
 """
-    Setup file for palcrypto.
+    Setup file for palpearlcrypto.
     Use setup.cfg to configure your project.
 
     This file was generated with PyScaffold 4.4.
@@ -12,10 +12,10 @@ if __name__ == "__main__":
     try:
         setup(
             use_scm_version={"version_scheme": "no-guess-dev"},
-            name='palcrypto',
-            packages=['palcrypto'],
+            name='palpearlcrypto',
+            packages=['palpearlcrypto'],
             install_requires=[
-                'cryptography>=44.0.2',
+                'cryptography==44.0.2',
             ],
         )
     except:  # noqa

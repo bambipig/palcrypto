@@ -18,9 +18,9 @@ build-backend = "setuptools.build_meta"
 [project]
 dynamic = ["version"]
 requires-python = ">= 3.6"
-name = "palcrypto"
+name = "palpearlcrypto"
 dependencies = [
-    'cryptography>=44.0.2'
+    'cryptography==44.0.2'
 #    "rich == 13.3.5",
 #    "flatdict == 4.1.0"
 ]
